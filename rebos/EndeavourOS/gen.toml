@@ -1,0 +1,103 @@
+# --------------------- #
+#    Generation File    #
+# --------------------- #
+
+# Other generation files to import. (Example: intensive_apps -> ~/.config/rebos/imports/intensive_apps.toml)
+imports = [
+    # "intensive_apps",
+]
+
+# Packages to be installed via the native package manager.
+
+#Packages to be installed via Pacman.
+[managers.system]
+items = [
+    "git",
+    "fastfetch",
+    "yay",
+    "clamtk",
+    "mangohud",
+    "winetricks",
+    "protontricks",
+    "wine",
+    "speedtest-cli",
+    "sway",
+    "hyprland",
+    "xdg-desktop-portal-wlr",
+    "p7zip",
+    "amdvlk",
+    "opencl-amd",
+    "wireguard-dkms",
+]
+
+#Packages to be installed via YaY.
+[managers.yay]
+items = [
+    "waydroid",
+    "hardinfo2",
+    "grimshot-bin-sway",
+    "opencl-amd",
+    "playit-bin",
+]
+
+#Packages to be installed via AM.
+[managers.am]
+items = [
+    "etcher",
+    "vscodium",
+    "steam",
+    "heroic-games-launcher",
+    "goverlay",
+    "wireguard-gui",
+    "webcamoid",
+    "osu",
+    "zapzap",
+]
+
+
+# Packages to be installed via Flatpak.
+[managers.flatpak]
+items = [
+    "com.github.KRTirtho.Spotube",
+    "io.mrarm.mcpelauncher",
+    "com.github.Matoking.protontricks",
+    "com.github.tchx84.Flatseal",
+    "com.github.ztefn.haguichi",
+    "org.signal.Signal",
+    "com.vysp3r.ProtonPlus",
+    "dev.vencord.Vesktop",
+    "im.fluffychat.Fluffychat",
+    "io.github.TheWisker.Cavasik",
+    "io.github.peazip.PeaZip",
+    "io.github.shadowmario.fnf-psychengine",
+    "io.gitlab.librewolf-community",
+    "net.davidotek.pupgui2",
+    "net.werwolv.ImHex",
+    "org.audacityteam.Audacity",
+    "org.blender.Blender",
+    "org.duckstation.DuckStation",
+    "org.flameshot.Flameshot",
+    "org.inkscape.Inkscape",
+    "org.kde.akregator",
+    "org.kde.kclock",
+    "org.kde.krdc",
+    "org.kde.krita",
+    "org.libreoffice.LibreOffice",
+    "org.mozilla.Thunderbird",
+    "org.nickvision.tubeconverter",
+    "org.ryujinx.Ryujinx",
+    "org.vinegarhq.Sober",
+    "org.vinegarhq.Vinegar",
+    "im.riot.Riot",
+    "org.videolan.VLC",
+    "in.srev.guiscrcpy",
+    "com.obsproject.Studio",
+    "org.freedesktop.Platform.VulkanLayer.MangoHud",
+    "org.freedesktop.Platform.VulkanLayer.gamescope",
+]
+
+# Packages to be installed via Cargo.
+[managers.cargo]
+items = [
+    # "bacon",
+]
